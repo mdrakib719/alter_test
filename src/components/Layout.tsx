@@ -49,6 +49,7 @@ export default function Layout({ children }: LayoutProps) {
           </div>
 
           {/* Desktop Navigation */}
+          {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-6">
             {[
               "home",
@@ -63,7 +64,7 @@ export default function Layout({ children }: LayoutProps) {
               <a
                 key={section}
                 href={`#${section}`}
-                className="text-gray-700 hover:text-rescue-600 font-medium transition-colors"
+                className="text-gray-700 hover:text-rescue-600 font-bold transition-colors"
               >
                 {section.charAt(0).toUpperCase() + section.slice(1)}
               </a>
@@ -82,6 +83,7 @@ export default function Layout({ children }: LayoutProps) {
         </div>
 
         {/* Mobile Navigation */}
+        {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden bg-white shadow-lg border-t">
             <div className="flex flex-col space-y-3 py-4 px-6">
@@ -99,7 +101,7 @@ export default function Layout({ children }: LayoutProps) {
                   key={section}
                   href={`#${section}`}
                   onClick={toggleMenu}
-                  className="text-gray-700 hover:text-rescue-600 py-1 font-medium"
+                  className="text-gray-700 hover:text-rescue-600 py-1 font-bold"
                 >
                   {section.charAt(0).toUpperCase() + section.slice(1)}
                 </a>
