@@ -4,55 +4,55 @@ export default function Team() {
   // Placeholder team members - replace with actual team data
   const teamMembers = [
     {
-      name: "Team Member 1",
-      role: "Team Lead",
+      name: "Muntasir Ahad",
+      role: "Project Manager",
       image:
         "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/blog-images//Screenshot%202025-04-22%20at%2012.48.50%20AM.png",
     },
     {
-      name: "Team Member 2",
-      role: "Robotics Engineer",
+      name: "Sahoria Ahmmad Durjoy",
+      role: "Team Lead",
       image:
         "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/blog-images//Screenshot%202025-04-22%20at%2012.55.42%20AM.png",
     },
     {
-      name: "Team Member 3",
-      role: "Software Developer",
+      name: "Farha Hassan Priti",
+      role: "Electronics And Communication Lead",
       image:
         "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/alter//WhatsApp%20Image%202025-04-23%20at%2019.40.36%20(1).jpeg",
     },
     {
-      name: "Team Member 4",
-      role: "Electronics Engineer",
+      name: "Mehidi Hassan",
+      role: "Control And AI Lead",
       image:
         "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/alter//WhatsApp%20Image%202025-04-23%20at%2019.40.37.jpeg",
     },
     {
-      name: "Team Member 5",
-      role: "Mechanical Engineer",
+      name: "Anamul Haque Akash",
+      role: "Management Lead",
       image:
         "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/alter//WhatsApp%20Image%202025-04-23%20at%2019.40.36%20(2).jpeg",
     },
     {
-      name: "Team Member 6",
-      role: "Research Associate",
+      name: "Mahadia Mashkura",
+      role: "Management Co-Lead ",
       image:
         "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/alter//WhatsApp%20Image%202025-04-23%20at%2019.40.38.jpeg",
     },
     {
-      name: "Team Member 7",
-      role: "Project Manager",
+      name: "Raheeb Sadman",
+      role: "Electronics Co-Lead",
       image:
         "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/alter//WhatsApp%20Image%202025-04-23%20at%2019.40.39.jpeg",
     },
     {
-      name: "Team Member 8",
-      role: "Faculty Advisor",
+      name: "Jahedul Alam Mahee",
+      role: "Comunicatipn Co-Lead",
       image:
         "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/alter//WhatsApp%20Image%202025-04-23%20at%2019.40.37%20(1).jpeg",
     },
     {
-      name: "Team Member 8",
+      name: "Safwan Sattar",
       role: "Faculty Advisor",
       image:
         "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/alter//WhatsApp%20Image%202025-04-23%20at%2019.40.36.jpeg",
