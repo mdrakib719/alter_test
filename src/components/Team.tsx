@@ -4,65 +4,60 @@ export default function Team() {
   // Placeholder team members - replace with actual team data
   const teamMembers = [
     {
-      name: "Team Member 1",
-      role: "Team Lead",
+      name: "Muntasir Ahad",
+      role: "Project Manager",
       image:
         "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/blog-images//Screenshot%202025-04-22%20at%2012.48.50%20AM.png",
     },
     {
-      name: "Team Member 2",
-      role: "Robotics Engineer",
-      image:
-        "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/blog-images//Screenshot%202025-04-22%20at%2012.55.42%20AM.png",
-    },
-    {
-      name: "Team Member 3",
-      role: "Software Developer",
+      name: "Sahoria Ahmmad Durjoy",
+      role: "Team Lead",
       image:
         "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/alter//WhatsApp%20Image%202025-04-23%20at%2019.40.36%20(1).jpeg",
     },
     {
-      name: "Team Member 4",
-      role: "Electronics Engineer",
+      name: "Farha Hassan Priti",
+      role: "Electronics And Communication Lead",
       image:
         "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/alter//WhatsApp%20Image%202025-04-23%20at%2019.40.37.jpeg",
     },
     {
-      name: "Team Member 5",
-      role: "Mechanical Engineer",
+      name: "Mehidi Hassan",
+      role: "Control And AI Lead",
       image:
         "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/alter//WhatsApp%20Image%202025-04-23%20at%2019.40.36%20(2).jpeg",
     },
     {
-      name: "Team Member 6",
-      role: "Research Associate",
+      name: "Anamul Haque Akash",
+      role: "Management Lead",
       image:
         "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/alter//WhatsApp%20Image%202025-04-23%20at%2019.40.38.jpeg",
     },
     {
-      name: "Team Member 7",
-      role: "Project Manager",
+      name: "Mahadia Mashkura",
+      role: "Management Co-Lead",
       image:
-        "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/alter//WhatsApp%20Image%202025-04-23%20at%2019.40.39.jpeg",
+        "https://i.ibb.co.com/q3fJF1sf/Whats-App-Image-2025-04-21-at-9-53-33-PM.jpg",
     },
     {
-      name: "Team Member 8",
-      role: "Faculty Advisor",
-      image:
-        "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/alter//WhatsApp%20Image%202025-04-23%20at%2019.40.37%20(1).jpeg",
-    },
-    {
-      name: "Team Member 8",
-      role: "Faculty Advisor",
-      image:
-        "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/alter//WhatsApp%20Image%202025-04-23%20at%2019.40.36.jpeg",
-    },
-    {
-      name: "Team Member 8",
-      role: "Faculty Advisor",
+      name: "Raheeb Sadman",
+      role: "Electronics Co-Lead",
       image:
         "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/alter//WhatsApp%20Image%202025-04-23%20at%2019.40.35.jpeg",
     },
+    {
+      name: "Jahedul Alam Mahe",
+      role: "Communication Co-Lead",
+      image:
+        "https://i.ibb.co.com/1YFN8bvB/Whats-App-Image-2025-04-21-at-9-53-32-PM.jpg",
+    },
+    {
+      name: "Safwan Sattar",
+      role: "Control And AI Co-Lead",
+      image:
+        "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/alter//WhatsApp%20Image%202025-04-23%20at%2019.40.36.jpeg",
+    },
+   
   ];
 
   return (
@@ -77,10 +72,10 @@ export default function Team() {
           {teamMembers.map((member, index) => (
             <div
               key={index}
-              className="text-center animate-fade-in"
+              className="text-center animate-fade-in w-[200px] "
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <div className="relative w-full aspect-square rounded-full overflow-hidden mb-4 mx-auto border-2 border-rescue-100">
+              <div className="relative aspect-square rounded-full overflow-hidden mb-4 mx-auto border-2 border-rescue-100">
                 <img
                   src={member.image}
                   alt={member.name}

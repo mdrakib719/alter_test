@@ -33,7 +33,7 @@ export default function Layout({ children }: LayoutProps) {
           scrolled ? "bg-white shadow-md py-2" : "bg-transparent py-4"
         }`}
       >
-        <div className="container mx-auto flex justify-between items-center px-4 md:px-6">
+        <div className="container mx-auto flex justify-between items-center px-4 md:px-2 ml-10">
           <div className="flex items-center">
             <img
               src="https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/alter//WhatsApp%20Image%202025-04-23%20at%2020.52.13.jpeg"

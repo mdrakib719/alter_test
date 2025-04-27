@@ -4,10 +4,10 @@ export default function Hero() {
   return (
     <section id="home" className="pt-24 md:pt-32 lg:pt-40 pb-16 md:pb-24">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="flex flex-col md:flex-row items-center gap-10">
+        <div className="flex flex-col md:flex-row items-center gap-5">
           <div className="flex-1 text-center md:text-left animate-fade-in-up">
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              <span className="text-rescue-600 block">BRACU ALTER</span>
+              <span className="text-rescue-600  block">BRACU ALTER</span>
               <span className="text-lg md:text-2xl lg:text-2xl text-gray-800 block mt-2">
                 An Autonomous Locomotion Technology for Emergency Rescue
               </span>
