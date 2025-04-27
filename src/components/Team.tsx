@@ -29,16 +29,16 @@ export default function Team() {
     },
     {
       name: "Anamul Haque Akash",
-      role: "Management Lead",
+      role: "Mechanical co-Lead",
       image:
         "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/alter//WhatsApp%20Image%202025-04-23%20at%2019.40.38.jpeg",
     },
-    {
-      name: "Mahadia Mashkura",
-      role: "Management Co-Lead",
-      image:
-        "https://i.ibb.co.com/q3fJF1sf/Whats-App-Image-2025-04-21-at-9-53-33-PM.jpg",
-    },
+    // {
+    //   name: "Mahadia Mashkura",
+    //   role: "Management Co-Lead",
+    //   image:
+    //     "https://i.ibb.co.com/q3fJF1sf/Whats-App-Image-2025-04-21-at-9-53-33-PM.jpg",
+    // },
     {
       name: "Raheeb Sadman",
       role: "Electronics Co-Lead",
@@ -57,7 +57,12 @@ export default function Team() {
       image:
         "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/alter//WhatsApp%20Image%202025-04-23%20at%2019.40.36.jpeg",
     },
-   
+    {
+      name: "Mahadia Mashkura",
+      role: "Management Co-Lead",
+      image:
+        "https://i.ibb.co.com/q3fJF1sf/Whats-App-Image-2025-04-21-at-9-53-33-PM.jpg",
+    },
   ];
 
   return (
